@@ -3,8 +3,13 @@ h1{
     padding: 15px;
 }
 
+div {
 
-#caja{
+padding: 20px;
+margin-bottom: 30px;
+}
+
+#panini{
     background-color: #999999;
     padding: 10px 20px 10px 20px;
     width: 100%;
@@ -12,7 +17,7 @@ h1{
     position: relative;
 }
 
-#caja #title1 {
+ #title1 {
     position: relative;
     padding: 0px;
     margin: 0px;
@@ -23,7 +28,7 @@ h1{
     border: 1px solid black;
 }
 
-#caja #title2 {
+ #title2 {
     position: relative;
     padding: 0px;
     margin: 0px;
@@ -35,7 +40,7 @@ h1{
     border: 1px solid black;
 }
 
-#caja #title3 {
+ #title3 {
     position: relative;
     padding: 0px;
     margin: 0px;
@@ -46,44 +51,158 @@ h1{
     border: 1px solid black;
 }
 
-.widgets > div {
-    padding: 15px;
-    margin-bottom: 15px;
+#paniniN{
+    background-color: #999999;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    border: 2px solid black;
+    position: relative;
 }
 
-@media (min-width: 501px) and (max-width: 991px) {
+#paniniM{
+    background-color: #999999;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    border: 2px solid black;
+    position: relative;
+}
 
-    #caja #title1{
+@media (min-width: 10px) and (max-width: 767px) {
+
+    #panini #title1{
         width: 40%;
         right: -70%;
     }
 
-    #caja #title2{
+    #panini #title2{
         width: 40%;
         right: -70%;
     }
 
-    #caja #title3{
+    #panini #title3{
         width: 20%;
         right: -84%;
     }
 }
 
 
-@media (min-width: 399px)  and (max-width: 500px) {
+@media (min-width: 768px)  and (max-width: 1199px) {
 
-    #caja #title1{
-        width: 20%;
-        right: -84%;
-    }
+   #panini {
+    padding: 10px 20px 10px 20px;
+    width: 50%;
+    border: 2px solid black;
+    position: relative;
+    left: 220px;
+    top: 33px ;
 
-    #caja #title2{
-        width: 20%;
-        right: -84%;
-    }
 
-    #caja #title3{
-        width: 20%;
-        right: -84%;
-    }
+
+}
+
+#title1 {
+
+    width: 10%;
+   padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    position: relative;
+
+}
+#paniniN {
+    padding: 10px 20px 10px 20px;
+    width: 50%;
+    border: 2px solid black;
+    position: relative;
+    left:220px;
+    top:50px;
+}
+
+#title2 {
+
+    width: 10%;
+   padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    position: relative;
+   
+}
+
+#paniniM {
+    padding: 10px 20px 10px 20px;
+    width: 50%;
+    border: 2px solid black;
+    position: relative;
+    float: left;
+    top: 73px;
+    left: 220px;
+}
+
+#title3 {
+
+width: 10%;
+padding: 10px 20px 10px 20px;
+border: 2px solid black;
+position: relative;
+
+
+}
+}
+
+@media (min-width:1200px) {
+
+#panini {
+    padding: 10px 20px 10px 20px;
+    width: 25%;
+    border: 2px solid black;
+    position: relative;
+    left: 50px;
+    top:53px ;
+
+
+
+}
+
+#title1 {
+
+    width: 7%;
+   padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    position: relative;
+
+}
+#paniniN {
+    padding: 10px 20px 10px 20px;
+    width: 25%;
+    border: 2px solid black;
+    position: relative;
+    left:470px;
+    top:-160px;
+}
+
+#title2 {
+
+    width: 7%;
+   padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    position: relative;
+   
+}
+
+#paniniM {
+    padding: 10px 20px 10px 20px;
+    width: 25%;
+    border: 2px solid black;
+    position: relative;
+    float: right;
+    top: -373px;
+}
+
+#title3 {
+
+width: 7%;
+padding: 10px 20px 10px 20px;
+border: 2px solid black;
+position: relative;
+
+
+}
 }
