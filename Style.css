@@ -1,4 +1,4 @@
-h1{
+h1 {
     text-align: center;
     padding: 15px;
 }
@@ -9,7 +9,7 @@ padding: 20px;
 margin-bottom: 30px;
 }
 
-#panini{
+#panini {
     background-color: #999999;
     padding: 10px 20px 10px 20px;
     width: 100%;
@@ -51,7 +51,7 @@ margin-bottom: 30px;
     border: 1px solid black;
 }
 
-#paniniN{
+#paniniN {
     background-color: #999999;
     padding: 10px 20px 10px 20px;
     width: 100%;
@@ -59,7 +59,7 @@ margin-bottom: 30px;
     position: relative;
 }
 
-#paniniM{
+#paniniM {
     background-color: #999999;
     padding: 10px 20px 10px 20px;
     width: 100%;
@@ -69,17 +69,17 @@ margin-bottom: 30px;
 
 @media (min-width: 10px) and (max-width: 767px) {
 
-    #panini #title1{
+    #panini #title1 {
         width: 40%;
         right: -70%;
     }
 
-    #panini #title2{
+    #panini #title2 {
         width: 40%;
         right: -70%;
     }
 
-    #panini #title3{
+    #panini #title3 {
         width: 20%;
         right: -84%;
     }
@@ -181,7 +181,7 @@ position: relative;
 #title2 {
 
     width: 7%;
-   padding: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
     border: 2px solid black;
     position: relative;
    
